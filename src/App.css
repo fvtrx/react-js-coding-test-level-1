@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+
+.column {
+  grid-column: 1;
+}
+
+.card {
+  width: 400px;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 0px;
+  padding: 20px 15px;
+  margin-top: 20px;
+  margin-left: 20pt;
+  margin-right: 20pt;
+  text-align: LEFT;
+  background-color: white;
+  color: black;
+}
+
+P {
+  font-size: 15pt;
+  margin-left: 15pt;
+  color: #341f1b;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  margin-left: 20pt;
+  font-weight: 900;
+  text-align: left;
+  font-size: 20pt;
+}
+
+hr {
+  background: rgba(0, 0, 0, 0.85);
+  margin-left: 15pt;
+  height: 2px;
+  margin-top: 0rem;
+  margin-bottom: 0.1rem;
+}
+
+.button {
+  margin-left: 20pt;
+  color: #0c0807;
+  border: 3px solid #341f1b;
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 20px;
+  background: #f4f4ee;
+  text-align: center;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 0px;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+}
