@@ -36,3 +36,178 @@
     transform: rotate(360deg);
   }
 }
+
+.column {
+  grid-column: 1;
+}
+
+.card {
+  width: 400px;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 20px 15px;
+  margin-top: 20px;
+  margin-left: 20pt;
+  margin-right: 20pt;
+  text-align: LEFT;
+  background-color: white;
+  color: black;
+}
+
+.card:hover {
+  background-color: yellow;
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+
+P {
+  font-size: 15pt;
+  margin-left: 15pt;
+  color: #341f1b;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  margin-left: 20pt;
+  font-weight: 900;
+  text-align: left;
+  font-size: 20pt;
+}
+
+hr {
+  background: rgba(0, 0, 0, 0.85);
+  margin-left: 15pt;
+  height: 2px;
+  margin-top: 0rem;
+  margin-bottom: 0.1rem;
+}
+
+.button {
+  margin-left: 20pt;
+  color: #0c0807;
+  border: 3px solid #341f1b;
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 20px;
+  background: #f4f4ee;
+  text-align: center;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 0px;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #0c0807;
+  color: #f4f4ee;
+  transition-duration: 500ms;
+}
+
+.type-item {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+:root {
+  --default_rgba: rgba(238, 129, 48, 0.00001);
+  --normal: #a8a77a;
+  --fire: #ee8130;
+  --water: #6390f0;
+  --electric: #f7d02c;
+  --grass: #7ac74c;
+  --ice: #96d9d6;
+  --fighting: #c22e28;
+  --poison: #a33ea1;
+  --ground: #e2bf65;
+  --flying: #a98ff3;
+  --psychic: #f95587;
+  --bug: #a6b91a;
+  --rock: #b6a136;
+  --ghost: #735797;
+  --dragon: #6f35fc;
+  --dark: #705746;
+  --steel: #b7b7ce;
+  --fairy: #d685ad;
+}
+
+.normal {
+  background-color: var(--normal);
+}
+
+.fire {
+  background-color: var(--fire);
+}
+
+.water {
+  background-color: var(--water);
+}
+
+.electric {
+  background-color: var(--electric);
+}
+
+.grass {
+  background-color: var(--grass);
+}
+
+.ice {
+  background-color: var(--ice);
+}
+
+.fighting {
+  background-color: var(--fighting);
+}
+
+.poison {
+  background-color: var(--poison);
+}
+
+.ground {
+  background-color: var(--ground);
+}
+
+.flying {
+  background-color: var(--flying);
+}
+
+.psychic {
+  background-color: var(--psychic);
+}
+
+.bug {
+  background-color: var(--bug);
+}
+
+.rock {
+  background-color: var(--rock);
+}
+
+.ghost {
+  background-color: var(--ghost);
+}
+
+.dragon {
+  background-color: var(--dragon);
+}
+
+.dark {
+  background-color: var(--dark);
+}
+
+.steel {
+  background-color: var(--steel);
+}
+
+.fairy {
+  background-color: var(--fairy);
+}
